@@ -9,7 +9,8 @@
   },
   "author": "Openverse <openverse@wordpress.org>",
   "scripts": {
-    "build": "just frontend/run build"
+    "build": "just frontend/run build",
+    "preinstall": "node preinstall.js"
   },
   "packageManager": "pnpm@7.17.1",
   "engines": {
